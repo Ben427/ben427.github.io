@@ -1,14 +1,16 @@
-current directory: /Users/bbordofsky/Desktop/Ben Proj/editorial-jekyll-theme-master/vendor/bundle/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20180201-48274-zekfea.rb extconf.rb
+current directory: /Users/bbordofsky/Documents/GitHub/ben427.github.io/vendor/bundle/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20180210-2498-18bl2k4.rb extconf.rb
 creating Makefile
 
-current directory: /Users/bbordofsky/Desktop/Ben Proj/editorial-jekyll-theme-master/vendor/bundle/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+current directory: /Users/bbordofsky/Documents/GitHub/ben427.github.io/vendor/bundle/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" clean
 
-current directory: /Users/bbordofsky/Desktop/Ben Proj/editorial-jekyll-theme-master/vendor/bundle/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+current directory: /Users/bbordofsky/Documents/GitHub/ben427.github.io/vendor/bundle/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR="
 compiling ruby_http_parser.c
-clang: error: no such file or directory: 'Proj/editorial-jekyll-theme-master/vendor/bundle/gems/http_parser.rb-0.6.0/ext/ruby_http_parser'
-make: *** [ruby_http_parser.o] Error 1
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
 
-make failed, exit code 2
+current directory: /Users/bbordofsky/Documents/GitHub/ben427.github.io/vendor/bundle/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20180210-2498-x0av3l
