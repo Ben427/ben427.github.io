@@ -1,3 +1,10 @@
+# Build settings
+markdown: kramdown
+exclude: 
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
 # Site settings
 title: Ben427's Portfolio
 subtitle: 
@@ -25,10 +32,5 @@ pinterest_url:
 slack_url:
 twitter_url: 
 
-# Build settings
-markdown: kramdown
-exclude: 
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+
 
