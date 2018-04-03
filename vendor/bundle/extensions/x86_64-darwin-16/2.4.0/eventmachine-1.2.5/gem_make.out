@@ -1,16 +1,16 @@
-current directory: /Users/bbordofsky/Desktop/Ben Proj/editorial-jekyll-theme-master/vendor/bundle/gems/eventmachine-1.2.5/ext/fastfilereader
-/usr/local/opt/ruby/bin/ruby -r ./siteconf20180201-48274-5iwg7l.rb extconf.rb
+current directory: /Users/bbordofsky/Documents/GitHub/ben427.github.io/vendor/bundle/gems/eventmachine-1.2.5/ext/fastfilereader
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20180402-29256-1yhcwre.rb extconf.rb
 creating Makefile
 
-current directory: /Users/bbordofsky/Desktop/Ben Proj/editorial-jekyll-theme-master/vendor/bundle/gems/eventmachine-1.2.5/ext/fastfilereader
+current directory: /Users/bbordofsky/Documents/GitHub/ben427.github.io/vendor/bundle/gems/eventmachine-1.2.5/ext/fastfilereader
 make "DESTDIR=" clean
 
-current directory: /Users/bbordofsky/Desktop/Ben Proj/editorial-jekyll-theme-master/vendor/bundle/gems/eventmachine-1.2.5/ext/fastfilereader
+current directory: /Users/bbordofsky/Documents/GitHub/ben427.github.io/vendor/bundle/gems/eventmachine-1.2.5/ext/fastfilereader
 make "DESTDIR="
 compiling mapper.cpp
 compiling rubymain.cpp
 linking shared-object fastfilereaderext.bundle
 
-current directory: /Users/bbordofsky/Desktop/Ben Proj/editorial-jekyll-theme-master/vendor/bundle/gems/eventmachine-1.2.5/ext/fastfilereader
+current directory: /Users/bbordofsky/Documents/GitHub/ben427.github.io/vendor/bundle/gems/eventmachine-1.2.5/ext/fastfilereader
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20180201-48274-nhgu83
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20180402-29256-1phmomz

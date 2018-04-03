@@ -26,7 +26,7 @@
    DEALINGS IN THE SOFTWARE.
 
    ----------------------------------------------------------------------- */
-/*
+
 #ifndef LIBFFI_TARGET_H
 #define LIBFFI_TARGET_H
 
@@ -37,7 +37,7 @@
 /* ---- System specific configurations ----------------------------------- */
 
 /* For code common to all platforms on x86 and x86_64. */
-/*#define X86_ANY
+#define X86_ANY
 
 #if defined (X86_64) && defined (__i386__)
 #undef X86_64
@@ -47,7 +47,7 @@
 #ifdef X86_WIN64
 #define FFI_SIZEOF_ARG 8
 #define USE_BUILTIN_FFS 0 /* not yet implemented in mingw-64 */
-/*#endif
+#endif
 
 #define FFI_TARGET_SPECIFIC_STACK_SPACE_ALLOCATION
 #ifndef _MSC_VER
@@ -55,7 +55,7 @@
 #endif
 
 /* ---- Generic type definitions ----------------------------------------- */
-/*
+
 #ifndef LIBFFI_ASM
 #ifdef X86_WIN64
 #ifdef _MSC_VER
@@ -119,7 +119,7 @@ typedef enum ffi_abi {
 #endif
 
 /* ---- Definitions for closures ----------------------------------------- */
-/*
+
 #define FFI_CLOSURES 1
 #define FFI_GO_CLOSURES 1
 
@@ -135,7 +135,7 @@ typedef enum ffi_abi {
 #else
 # define FFI_TRAMPOLINE_SIZE 12
 # define FFI_NATIVE_RAW_API 1  /* x86 has native raw api support */
-/*#endif
-/*
+#endif
+
 #endif
 
