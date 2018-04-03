@@ -1,0 +1,608 @@
+/* DESKTOP - BIG - 1440 */
+
+
+#page-container{
+	width:100%;
+	overflow:hidden;
+}
+
+/* Navigation CSS */
+ 
+nav{
+	background-color:#39499B;
+	height:150px;
+	width:100%;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	position:relative;
+}
+
+#hamburger-menu{
+	display:none;
+}
+
+.menu{
+	display:inline-block;
+	margin:0;
+	position:absolute;
+	top:50%;
+	right:0%;
+	transform: translate(-5%, -50%);
+}
+
+.menu li{
+	display:inline-block;
+	padding-left:20px;
+}
+
+.menu li a{
+	color:#fff;
+	text-decoration:none;
+
+}
+.menu li a:hover{
+	color:#F68B1F;
+	text-decoration:none;
+}
+
+.vertical-center{
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(5%, -50%);
+}
+
+#tagline{
+	padding-left:160px
+}
+
+#logo img{
+	width:167px;
+}
+
+#alt-logo{
+	display:none;
+}
+/* Header aka Hero */
+.container{
+	font-family: 'Open Sans', sans-serif;
+	width:85%;
+	margin-left:7.5%;
+	margin-right:7.5%;
+}
+
+h1{
+	color:#39499B;
+	text-transform:capitalize;
+	text-align:center;
+	margin:75px 0px 75px 0px;
+	font-size:50px;
+}
+
+#hero{
+	display:inline-block;
+}
+#hero img{
+	float:left;
+	width:48%;
+}
+
+#hero-content{
+	float:right;
+	width:48%;
+}
+
+#hero-content h2{
+	font-weight:300;
+	font-size:50px;
+	line-height: 110%;
+	margin:0;
+	padding:0;
+	color:#39499B;
+}
+
+#hero-content p{
+	opacity:.67;
+	font-size:16px;
+}
+
+button{
+	background-color:#F68B1F;
+	color:#fff;
+	border:none;
+	text-align:center;
+	width:150px;
+	height:40px;
+	border-radius:5px;
+	font-size:16px;
+}
+
+/*Blog Grid*/
+.grid-container {
+  display: grid;
+  margin:75px 0px 75px 0px;
+  grid-template-columns: auto auto auto;
+  grid-column-gap:30px;
+  grid-row-gap: 75px;
+}
+.grid-item {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.grid-item h5{
+	color:#39499B;
+	font-size:16px;
+	font-weight:bold;
+ 	margin:15px 0px 0px 0px;
+	padding:0;
+	text-align:left;
+}
+
+.grid-item .date{
+	color:#39499B;
+	font-size:14px;
+	font-weight:bold;
+ 	margin:15px 0px 0px 0px;
+	padding:0;
+
+}
+
+.grid-item p{
+	color:#707070;
+	font-size:16px;
+ 	margin:15px 0px 0px 0px;
+	padding:0;
+	float:left;
+	text-align:left;
+}
+
+.grid-item button{
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.grid-item img{
+	width:100%;
+	-webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateZ(50deg) rotateY(25deg); 
+}
+
+/*CTA Section*/
+#cta{
+	background-image:url('images/cta-background.png');
+	width:500%;
+	margin-left:-200%;
+	text-align:center;
+}
+
+#cta h4{
+	padding:50px 0px 15px 0px;
+	color:#39499B;
+	font-style:italic;
+	font-weight:bold;
+}
+
+
+#cta form{
+	display:inline-block;
+	padding-right:10px;
+}
+
+#cta form input {
+	width:330px;
+	height:45px;
+	border-radius:5px;
+	border:none;
+	color:#707070;
+	padding-left:10px;
+	font-size:18px;
+}
+
+#cta button{
+	color:#fff;
+	background-color:#39499B;
+	font-size:16px;
+	font-weight:400;
+	display:inline-block;
+	margin-left:10px;
+	height:45px;
+	width:190px;
+	margin:0px 0px 50px 0px;
+}
+
+#cta img{
+	margin:5px 50px 5px 50px;
+}
+
+/*Pagination*/
+
+#pagination{
+	width:100%;
+	text-align:center;
+	color:#39499B;
+	font-size:18px;
+	margin:75px 0px 75px 0px;
+}
+
+#pagination img{
+	padding:0px 20px 0px 20px;
+	margin: 0px 0px -10px 0px;
+}
+
+#orange{
+	color:#F68B1F;
+}
+
+/*Footer*/
+
+footer{
+	height:260px;
+	background-color:#000E4A;
+	width:100%;
+	position:relative;
+}
+
+footer #logo{
+	display:inline-block;
+	margin:0;
+	position:absolute;
+	top:50%;
+	right:0%;
+	transform: translate(-25%, -50%);
+}
+
+footer ul{
+	display:inline-block;
+	margin:0;
+	position:absolute;
+	top:50%;
+	right:50%;
+	transform: translate(40%, -50%);
+}
+
+footer ul li{
+	display:inline-block;
+	padding-left:10px;
+}
+
+
+
+
+/* DESKTOP - SMALL - 1024 */
+
+@media (max-width: 1024px){
+
+	h1{
+		margin:50px 0px 50px 0px;
+	}
+
+	#hero-content h2{
+		font-size:30px;
+		line-height: 110%;
+	}
+	#hero-content p{
+		font-size:14px;
+	}
+	
+	/*Blog Grid*/
+	.grid-container {
+	  margin:50px 0px 50px 0px;
+	  grid-column-gap:30px;
+	  grid-row-gap: 50px;
+	}
+
+	.grid-item h5{
+		font-size:14px;
+	 	margin:5px 0px 0px 0px;
+	}
+
+	.grid-item .date{
+		font-size:12px;
+	 	margin:5px 0px 0px 0px;
+	}
+
+	.grid-item p{
+		font-size:14px;
+	 	margin:5px 0px 0px 0px;
+	}
+
+	.grid-item button{
+		margin:5px 0px 0px 0px;
+		font-size:12px;
+		width:92px;
+		height:30px;
+	}
+
+}
+
+/* Tablet - 768 */
+
+@media (max-width: 768px){
+	/* Navigation CSS */
+ 
+	nav{
+		height:120px;
+	}
+
+	.menu{
+		display:none;
+	}
+
+	#hamburger-menu{
+		display:inline-block;
+		position:absolute;
+		top:50%;
+		right:5%;
+		transform: translate(5%,-50%);
+		padding:0px;
+		margin:0px;
+	}
+
+	.vertical-center{
+		margin: 0;
+	    position: absolute;
+	    top: 50%;
+	    left: 0%;
+	    transform: translate(5%, -50%);
+	}
+
+	#tagline{
+		padding-left:160px
+	}
+
+	#logo img{
+		width:167px;
+	}
+
+	/* Header aka Hero */
+	.container{
+		width:96%;
+		margin-left:1.5%;
+		margin-right:1.5%;
+	}
+
+	h1{
+		margin:40px 0px 40px 0px;
+		font-size:40px;
+	}
+
+	#hero-content{
+		float:right;
+		width:48%;
+	}
+
+	#hero-content h2{
+		font-size:25px;
+		line-height: 110%;
+	}
+
+	#hero-content p{
+		font-size:12px;
+	}
+
+	button{
+		width:90px;
+		height:30px;
+		font-size:14px;
+	}
+
+	/*Blog Grid*/
+	.grid-container {
+	  margin:40px 0px 40px 0px;
+	  grid-template-columns: auto auto;
+	  grid-row-gap: 40px;
+	}
+
+	.grid-item h5{
+		font-size:14px;
+	}
+
+	.grid-item .date{
+		font-size:12px;
+
+	}
+
+	.grid-item p{
+		font-size:14px;
+	}
+	/*CTA Section*/
+
+	#cta h4{
+		padding:40px 0px 15px 0px;
+	}
+
+	#cta img{
+		margin:5px 40px 5px 40px;
+	}
+
+
+	/*Footer*/
+	footer{
+	height:260px;
+	background-color:#000E4A;
+	width:100%;
+	position:relative;
+	}
+
+	footer #logo{
+		display:inline-block;
+		margin:0;
+		position:absolute;
+		top:55%;
+		right:38%;
+		transform: translate(0%, -0%);
+	}
+
+	footer ul{
+		display:inline-block;
+		margin:0;
+		position:absolute;
+		top:30%;
+		right:38%;
+		transform: translate(0%, 0%);
+	}
+
+	footer ul li{
+		display:inline-block;
+		padding-left:10px;
+	}
+
+}
+
+/* Mobile - 400px */
+
+@media (max-width: 400px){
+	/* Navigation CSS */
+ 
+	nav{
+		height:100px;
+	}
+
+
+	.vertical-center{
+		margin: 0;
+	    position: absolute;
+	    top: 50%;
+	    left: 0%;
+	    transform: translate(5%, -50%);
+	}
+
+	/* Header aka Hero */
+	.container{
+		width:96%;
+		margin-left:1.5%;
+		margin-right:1.5%;
+	}
+
+	h1{
+		margin:30px 0px 30px 0px;
+		font-size:40px;
+	}
+
+	#hero-content{
+		width:100%;
+	}
+
+
+	#hero-content p{
+		font-size:14px;
+	}
+
+	#hero img{
+		display:none;
+	}
+
+	button{
+		font-size:12px;
+	}
+
+	/*Blog Grid*/
+	.grid-container {
+	  margin:30px 0px 30px 0px;
+	  grid-template-columns: auto;
+	  grid-row-gap: 15px;
+	}
+
+	.grid-item{
+		border-bottom:1px solid #707070;
+	}
+
+	.grid-item img{
+		display:none;
+	}
+
+	.grid-item button{
+		margin-bottom:15px;
+	}
+
+	/*CTA Section*/
+	#cta{
+		height:240px;
+	}
+	#cta h4{
+		padding:50px 0px 0px 0px;
+		margin:0px 0px 15px 0px;
+	}
+
+
+	#cta form{
+		display:block;
+		padding:0;
+		margin:0px 0px 15px 0px;
+	}
+
+	#cta form input {
+
+	}
+
+	#cta button{
+		display:inline;
+		margin:0;
+		padding:0;
+		
+	}
+
+	#cta img{
+		margin:5px 50px 5px 50px;
+	}
+
+	/*Footer*/
+	footer{
+	height:260px;
+	background-color:#000E4A;
+	width:100%;
+	position:relative;
+	}
+
+	footer #logo{
+		display:inline-block;
+		margin:0;
+		position:absolute;
+		top:55%;
+		right:26%;
+		transform: translate(0%, -0%);
+	}
+
+	footer ul{
+		display:inline-block;
+		margin:0;
+		position:absolute;
+		top:30%;
+		right:26%;
+		transform: translate(0%, 0%);
+	}
+
+	footer ul li{
+		display:inline-block;
+		padding-left:10px;
+	}
+
+}
+}
+
+/*Exceptions to fix areas that just won't work with the given breakpoints without dramatically changing the design.*/
+
+/*Fixes a font size issue*/
+@media (max-width: 1300px){
+	#hero-content h2{
+		font-size:30px;
+	}
+}
+
+/*Fixes the issue where the menu list would overlap with the tagline of the logo*/
+@media (max-width: 880px){
+	#logo{
+		display:none;
+	}
+
+	.hide{
+		display:none;
+	}
+
+	#alt-logo{
+		display:block;
+	}
+}

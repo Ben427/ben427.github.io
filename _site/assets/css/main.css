@@ -3853,6 +3853,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+
 	}
 
 		#banner h1 {
@@ -3950,6 +3951,25 @@
 
 		}
 
+		@media screen and (max-width: 800px) {
+
+			#banner .image {
+				display:none;
+			}
+
+		}
+
+		@media screen and (max-width: 960px) {
+
+			#banner .image img{
+				max-height:275px;
+			}
+
+		@media screen and (max-width: 960px) {
+
+			#banner .image img{
+				max-height:250px;
+			}
 /* Footer */
 
 	#footer .copyright {
