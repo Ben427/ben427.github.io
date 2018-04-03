@@ -27,4 +27,4 @@ twitter_url:
 
 # Build settings
 markdown: kramdown
-exclude: [vendor]
+exclude: - vendor
