@@ -1,14 +1,13 @@
 ---
 layout: portfolio
 ---
-<html>
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/css/blog-design.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 </head>
 
 <div id="page-container">
-<nav>
+<div id="blog-nav">
 	<div class="vertical-center">
 		<div id="logo">
 			<img src="assets/images/blog-demo/logo.png">
@@ -19,16 +18,16 @@ layout: portfolio
 <div id="alt-logo">
 			<img src="assets/images/blog-demo/logo-tagline.png">
 		</div>
-</div>
+</div> 
 	
 <img id="hamburger-menu" src="assets/images/blog-demo/menu.png">
-	<ul class="menu">
+	<ul class="menu-blog">
 		<li><a href="#">Lorem</a></li>
 		<li><a href="#">Lorem Ipsum</a></li>
 		<li><a href="#">Lorem Ipsum Dolor Set</a></li>
 	</ul>
 
-</nav>
+</div>
 <div class="container">
 	<div id="hero">	
 		<h1>Blog Title</h1>
@@ -88,7 +87,7 @@ layout: portfolio
 			Like what you're reading? Get more!
 			<img src="assets/images/blog-demo/cta-divider.png"></h4>
 		<form>
-			<input type="text" value="Email"></input>
+			<input type="text" value="Email">
 		</form>
 		<button>Sign Up</button>
 	</div>
@@ -172,4 +171,3 @@ layout: portfolio
 		</div>
 	</footer>
 </div>
-</html>

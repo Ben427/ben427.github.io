@@ -8,7 +8,7 @@
 
 /* Navigation CSS */
  
-nav{
+#blog-nav{
 	background-color:#39499B;
 	height:150px;
 	width:100%;
@@ -16,31 +16,45 @@ nav{
 	font-family: 'Open Sans', sans-serif;
 	position:relative;
 }
+ 
+#sidebar #blog-nav {
+	background-color:#f5f6f7;
+}
+
+#sidebar footer {
+	background-color:#f5f6f7;
+}
 
 #hamburger-menu{
 	display:none;
 }
 
-.menu{
+#menu li{
+	color:#3d4449;
+}
+
+.menu-blog{
 	display:inline-block;
 	margin:0;
 	position:absolute;
 	top:50%;
-	right:0%;
-	transform: translate(-5%, -50%);
+	right:5%;
+	text-decoration:none;
 }
 
-.menu li{
+.menu-blog li{
 	display:inline-block;
 	padding-left:20px;
+	border:none;
 }
 
-.menu li a{
+.menu-blog li a{
 	color:#fff;
 	text-decoration:none;
+	border-bottom:0px;
 
 }
-.menu li a:hover{
+.menu-blog li a:hover{
 	color:#F68B1F;
 	text-decoration:none;
 }
@@ -48,13 +62,16 @@ nav{
 .vertical-center{
 	margin: 0;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 0%;
-    transform: translate(5%, -50%);
 }
 
 #tagline{
-	padding-left:160px
+	padding-left:220px
+}
+
+#logo{
+	margin-left:50px;
 }
 
 #logo img{
@@ -78,6 +95,7 @@ h1{
 	text-align:center;
 	margin:75px 0px 75px 0px;
 	font-size:50px;
+	font-family:'Open sans', sans-serif;
 }
 
 #hero{
@@ -100,11 +118,13 @@ h1{
 	margin:0;
 	padding:0;
 	color:#39499B;
+	font-family:'Open sans', sans-serif;
 }
 
 #hero-content p{
 	opacity:.67;
 	font-size:16px;
+	font-family:'Open sans', sans-serif;
 }
 
 button{
@@ -116,6 +136,13 @@ button{
 	height:40px;
 	border-radius:5px;
 	font-size:16px;
+	box-shadow:inset 0 0 0 0px #6A6AF5;
+	letter-spacing: 0;
+	line-height:0;
+	padding:0;
+	color: white !important;
+	font-family:'Open sans', sans-serif;
+	font-weight: 500;
 }
 
 /*Blog Grid*/
@@ -125,6 +152,7 @@ button{
   grid-template-columns: auto auto auto;
   grid-column-gap:30px;
   grid-row-gap: 75px;
+
 }
 .grid-item {
   font-size: 30px;
@@ -139,6 +167,7 @@ button{
  	margin:15px 0px 0px 0px;
 	padding:0;
 	text-align:left;
+	font-family:'Open sans', sans-serif;
 }
 
 .grid-item .date{
@@ -147,7 +176,7 @@ button{
 	font-weight:bold;
  	margin:15px 0px 0px 0px;
 	padding:0;
-
+	font-family:'Open sans', sans-serif;
 }
 
 .grid-item p{
@@ -157,25 +186,26 @@ button{
 	padding:0;
 	float:left;
 	text-align:left;
+	font-family:'Open sans', sans-serif;
 }
 
 .grid-item button{
 	float:left;
 	margin:15px 0px 0px 0px;
+	box-shadow:inset 0 0 0 0px #6A6AF5;
 }
 
 .grid-item img{
 	width:100%;
-	-webkit-transform: rotateX(150deg); /* Safari */
-    transform: rotateZ(50deg) rotateY(25deg); 
 }
 
 /*CTA Section*/
 #cta{
-	background-image:url('images/cta-background.png');
+	background-image:url('/assets/images/blog-demo/cta-background.png');
 	width:500%;
 	margin-left:-200%;
 	text-align:center;
+	font-family:'Open sans', sans-serif;
 }
 
 #cta h4{
@@ -211,6 +241,8 @@ button{
 	height:45px;
 	width:190px;
 	margin:0px 0px 50px 0px;
+	box-shadow:inset 0 0 0 0;
+	font-weight: 500;
 }
 
 #cta img{
@@ -314,6 +346,8 @@ footer ul li{
 		font-size:12px;
 		width:92px;
 		height:30px;
+		box-shadow:inset 0 0 0 0;
+		font-weight: 500;
 	}
 
 }
@@ -323,11 +357,11 @@ footer ul li{
 @media (max-width: 768px){
 	/* Navigation CSS */
  
-	nav{
+	#blog-nav{
 		height:120px;
 	}
 
-	.menu{
+	.menu-blog{
 		display:none;
 	}
 
@@ -387,6 +421,8 @@ footer ul li{
 		width:90px;
 		height:30px;
 		font-size:14px;
+		box-shadow:inset 0 0 0 0;
+		font-weight: 500;
 	}
 
 	/*Blog Grid*/
@@ -457,7 +493,7 @@ footer ul li{
 @media (max-width: 400px){
 	/* Navigation CSS */
  
-	nav{
+	#blog-nav{
 		height:100px;
 	}
 
@@ -465,9 +501,9 @@ footer ul li{
 	.vertical-center{
 		margin: 0;
 	    position: absolute;
-	    top: 50%;
+	    top: 30%;
 	    left: 0%;
-	    transform: translate(5%, -50%);
+	    transform: translate(5%, -30%);
 	}
 
 	/* Header aka Hero */
@@ -497,6 +533,8 @@ footer ul li{
 
 	button{
 		font-size:12px;
+		box-shadow:inset 0 0 0 0;
+		font-weight: 500;
 	}
 
 	/*Blog Grid*/
@@ -516,6 +554,8 @@ footer ul li{
 
 	.grid-item button{
 		margin-bottom:15px;
+		box-shadow:inset 0 0 0 0;
+		font-weight: 500;
 	}
 
 	/*CTA Section*/
@@ -542,6 +582,8 @@ footer ul li{
 		display:inline;
 		margin:0;
 		padding:0;
+		box-shadow:inset 0 0 0 0;
+		font-weight: 500;
 		
 	}
 
@@ -606,3 +648,32 @@ footer ul li{
 		display:block;
 	}
 }
+
+/*Gives us the opaque menu throughout*/
+@media screen and (max-width: 1920px) {
+
+			#sidebar .toggle {
+				text-indent: 7.25em;
+				width: 7.25em;
+			}
+
+				#sidebar .toggle:before {
+					color: #7f888f;
+					margin-left: -0.0625em;
+					margin-top: -0.25em;
+					font-size: 1.1rem;
+					z-index: 1;
+				}
+
+				#sidebar .toggle:after {
+					background: rgba(222, 225, 226, 0.75);
+					border-radius: 0.375em;
+					content: '';
+					height: 3.5em;
+					left: 1em;
+					position: absolute;
+					top: 1em;
+					width: 5em;
+				}
+
+		}
