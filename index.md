@@ -66,7 +66,7 @@ layout: default
 			<h3>Basic Blog Design</h3>
 			<p>CSS Grid seemed useful so I decided to play aorund with it. I put together a simple blog design and practiced implementing CSS Grid styles as I wrote it out. It's fully responsive and should work in the most recent version of most browsers.</p>
 			<ul class="actions">
-				<li><a href="/blog-design/" class="button">See it live</a></li>
+				<li><a href="/blog-design" class="button">See it live</a></li>
 			</ul>
 		</article>
 		<!--<article>
