@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 
@@ -17,7 +17,7 @@
   <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
   
 </head>
-
+ 
 
 <body>
 
@@ -28,47 +28,97 @@
         <div id="main">
             <div class="inner">
 
-                <!-- Header -->
-  <header id="header">
-    <a href="/" class="logo"><strong>Ben427's Portfolio</strong> </a>
-    <ul class="icons">
-      
-      
-      
-      
-      
-      
-      
-      
-      <li><a href="https://github.com/Ben427/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-      
-      
-      
-      <li><a href="https://www.linkedin.com/in/benbordofsky/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-      
-    </ul>
-  </header>
+                <html lang="en">
+  <head>
+      <script src="/assets/js/js-mini-projects.js"></script>
+      <link rel="stylesheet" type="text/css" href="/assets/css/js-mini-projects.css" />
+  </head>
+  <body>
 
 
-                <!-- Content -->
-                <section>
-                	<header class="main">
-                		<h1>Test Blog One</h1>
-                	</header>
+  <h1>JavaScript Mini Projects</h1>
 
-                  
-                	<span class="image main"><img src="http://localhost:4000/assets/images/pic11.jpg" alt="" /></span>
-                  
+  <div id="page-container">
 
-                <p>The chocolate chip cookie was invented by Ruth Graves Wakefield. She owned the Toll House Inn, in Whitman, Massachusetts, a very popular restaurant that featured home cooking in the 1930s. Her cookbook, Toll House Tried and True Recipes, was first published in 1936 by M. Barrows &amp; Company, New York. The 1938 edition of the cookbook was the first to include the recipe “Toll House Chocolate Crunch Cookie” which rapidly became a favorite cookie in American homes.</p>
+<!--Start Longest Word-->
 
-<p>Source / Read more <a href="https://en.wikipedia.org/wiki/Chocolate_chip_cookie">Wikipedia</a></p>
+  <div class="form-input one">
+    Input a sentence and I'll tell you the longest word!
+    <br />
+    <input id="userInput" type="text" onkeypress="return longestWord(event);" />
+    <input id="btn1" type="button" value="Go!" onclick="return longestWord(event);" />
+</div>
+  <!--End Longest Word-->
+  
 
-                <a href="/blog/" class="button special">Go Back</a>
-              </div>
-          </div>
+    <!--Start Capitalizing Sentence-->
+  <div class="form-input two">
+    Input a sentence and I'll capitalize each word for you!
+  
 
-          <!-- Sidebar -->
+  <br />
+  <input id="userInput2" type="text" onkeypress="return titleCase(event);" />
+  <input type="button" value="Go!" onclick="titleCase()" />
+  </div>
+  <!--End Capitalizing Sentence-->
+
+  <!--Start last letter check-->
+  <div class="form-input one">
+    Input a word and a letter. I will tell you if the last letter of the word matches the letter you input!
+  
+
+  <br />
+  <input id="userInput3" type="text" />
+  <input id="userInput4" type="text" onkeypress="return confirmEnding(event);" />
+  <input type="button" value="Go!" onclick="confirmEnding()" />
+  </div>
+  <!--End last letter check-->
+ 
+    <!--Start string repeater-->
+  <div class="form-input two">
+    Input a word and a number. I will repeat the string as many times as the number you put in!
+  
+
+  <br />
+  <input id="userInput5" type="text" />
+  <input id="userInput6" type="number" onkeypress="return repeatStringNumTimes(event);" />
+  <input type="button" value="Go!" onclick="repeatStringNumTimes()" />
+  </div>
+  <!--End string repeater-->
+  
+  <!--Start string truncator-->
+  <div class="form-input one">
+    Input a string and a number. The number will act as a max length. I will also include a "..." which will count towards the character count if the max number is greater than 3. 
+  
+
+  <br />
+  <input id="userInput7" type="text" />
+  <input id="userInput8" type="number" onkeypress="return truncateString(event);" />
+  <input type="button" value="Go!" onclick="truncateString()" />
+  </div>
+  <!--End string truncator-->
+  
+  <!--Start array slasher-->
+  <div class="form-input two">
+		 This is a function that takes your input, turns it into an array, then returns only as many characters as you input in the second box.
+		<br /> Please enter a series of letters/numbers that you'd like to put in the array and the length you'd like me keep. 
+	
+
+  <br />
+  <input id="userInput9" type="text" />
+  <input id="userInput10" type="number" onkeypress="return slasher(event);" />
+  <input type="button" value="Go!" onclick="slasher()" />
+  </div>
+  <!--End array slasher-->
+  </div>
+</body>
+  </html>
+
+
+            </div>
+        </div>
+
+        <!-- Sidebar -->
   <div id="sidebar">
     <div class="inner">
 
@@ -151,9 +201,9 @@
   </div>
 
 
-      </div>
+    </div>
 
-      <!-- Scripts -->
+    <!-- Scripts -->
   <script src="http://localhost:4000/assets/js/jquery.min.js"></script>
   <script src="http://localhost:4000/assets/js/skel.min.js"></script>
   <script src="http://localhost:4000/assets/js/util.js"></script>
