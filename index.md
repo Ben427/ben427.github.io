@@ -69,6 +69,14 @@ layout: default
 				<li><a href="/blog-design" class="button">See it live</a></li>
 			</ul>
 		</article>
+		<article>
+			<a href="/javascript-mini-projects" class="image"><img src="assets/images/js-mini-projects.jpg" alt="" /></a>
+			<h3>JavaScript Mini Projects</h3>
+			<p>Just a few small Javascript projects that I completed while working through freecodecamp.com.</p>
+			<ul class="actions">
+				<li><a href="javascript-mini-projects" class="button">See it live</a></li>
+			</ul>
+		</article>
 		<!--<article>
 			<a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
 			<h3>Tempus ullamcorper</h3>
