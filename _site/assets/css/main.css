@@ -3847,14 +3847,14 @@
 
 /* Banner */
 
-	#banner {
-		padding: 0 0 4em 0 ;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
+#banner {
+	padding: 0 0 4em 0 ;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
 
-	}
+}
 
 		#banner h1 {
 			margin-top: -0.125em;
@@ -3964,12 +3964,14 @@
 			#banner .image img{
 				max-height:275px;
 			}
+		}
 
 		@media screen and (max-width: 960px) {
 
 			#banner .image img{
 				max-height:250px;
 			}
+		}
 /* Footer */
 
 	#footer .copyright {
@@ -3980,10 +3982,9 @@
 		#footer .copyright a {
 			color: inherit;
 		}
-
 /* Menu */
 
-	#menu ul {
+	#menu ul{
 		-moz-user-select: none;
 		-webkit-user-select: none;
 		-ms-user-select: none;

@@ -1,0 +1,50 @@
+#rqm-body{
+  background-color:white;
+  font-family:sans-serif;
+  display:flex;
+  justify-content: center;
+  color:white;
+}
+#rqm-body h1{
+  margin:5px;
+  font-size:28px;
+  color:white;
+}
+
+#rqm-container{
+
+  background-color:#6A6AF5;
+  width:400px;
+  height:250px;
+  margin-top:20vh;
+  border-radius:15px;
+  justify-content: center;
+}
+
+#quote{
+  margin-top:5%;
+}
+
+#quote-container{
+  margin:10px;
+  min-height:20%;
+    text-align:center;
+}
+
+#author{
+  margin-top:8%;
+  height:100px;
+}
+
+#rqm-container button{
+  border-radius: 0.375em;
+  border: 0;
+  color: #6A6AF5 !important;
+  background-color:fff;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  line-height: 3.5em;
+  padding: 0 2.25em;
+}
