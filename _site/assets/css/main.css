@@ -2106,7 +2106,7 @@
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: #6A6AF5;
 		text-decoration: none;
 	}
@@ -3793,7 +3793,7 @@
 		display: -ms-flex;
 		display: flex;
 		border-bottom: solid 5px #6A6AF5;
-		padding: 6em 0 1em 0;
+		padding: 2.5em 0 1em 0;
 		position: relative;
 	}
 
