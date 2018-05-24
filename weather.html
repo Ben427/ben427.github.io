@@ -1,12 +1,34 @@
 ---
-layout: portfolio2
+layout: page
+title: Weather Checker
 ---
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/weather.css">
+</head>
 <body>
 <div id="weather-body">
-  <div id="location"></div>
-  <div id="temperature"></div>
-  <div id="weather"></div>
-  <button onclick="getLocation()">Click me</button>
+  <h2>Location: </h2>
+  <h3>
+    <div id="location"></div>
+  </h3>
+  <br>
+  <h2>Weather: </h2>
+  <h3>
+    <div id="weather"></div>
+  </h3>
+  <br>
+  <h2>Temperature: </h2>
+  <h3>
+    <div id="celsius"><div id="tempC"></div></div>
+    <div id="fahrenheit"><div id="tempF"></div></div>
+  </h3>
+  <br>
+    <div id="toFahrenheit"><button onClick="tempSwitchF()">Switch to Fahrenheit</button></div>
+    <div id="toCelsius"><button onClick="tempSwitchC()">Switch to Celsius</button></div>
+  <br>
 </div>
 <script src="/assets/js/weather.js"></script>
+<script type="text/javascript">
+window.onload = getLocation();
+</script>
 </body>

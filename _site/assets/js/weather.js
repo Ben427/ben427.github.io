@@ -37,16 +37,27 @@ function getWeather(){
 var url = "https://fcc-weather-api.glitch.me/api/current?lat=" + lat + "&lon=" +long;
 var client = new HttpClient();
 client.get(url, function(response){
-  alert (response); /*shows all the JSON in a string*/
-  alert(response[2]); /*alerts the third character of the string thus proving it's a string*/
+  /*alert (response); shows all the JSON in a string*/
+  /*alert(response[2]); /*alerts the third character of the string thus proving it's a string*/
   var obj=JSON.parse(response); /*this turns it into a JSON object*/
-  alert(obj); /*shoiuld shod object Object which proves obj is now a JSON object*/
-  document.getElementById("weather").innerHTML = obj.name; /*IT WORKSSSSS*/
-
+  /*alert(obj); /*shoiuld shod object Object which proves obj is now a JSON object*/
+  document.getElementById("weather").innerHTML = obj.weather[0].main;
+  document.getElementById("location").innerHTML = obj.name; /*IT WORKSSSSS*/
+  document.getElementById("tempC").innerHTML = Math.round(obj.main.temp);
+  document.getElementById("tempF").innerHTML = Math.round(obj.main.temp * 1.8 + 32);
 });
 }
 
-/*
-Need to feed the function the users current lat/longitude and
-HOW TO PARSE THIS INFORMATIONNNNN? THE PROBLEM IS THAT "RESPONSE" is coming in as a PURE STRING so not sure how to turn that into an array or JSON...
-need to fill in the inner HTML*/
+function tempSwitchF() {
+  document.getElementById("fahrenheit").style.display="block";
+  document.getElementById("celsius").style.display="none";
+  document.getElementById("toFahrenheit").style.display="none";
+  document.getElementById("toCelsius").style.display="block";
+}
+
+function tempSwitchC() {
+  document.getElementById("celsius").style.display="block";
+  document.getElementById("fahrenheit").style.display="none";
+  document.getElementById("toFahrenheit").style.display="block";
+  document.getElementById("toCelsius").style.display="none";
+}

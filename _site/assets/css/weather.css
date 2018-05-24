@@ -1,0 +1,15 @@
+#fahrenheit{
+  display:none;
+}
+
+#toCelsius{
+  display:none;
+}
+
+h2{
+  display:inline-block;
+}
+
+h3{
+  display:inline-block;
+}
