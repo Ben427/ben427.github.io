@@ -64,7 +64,7 @@ layout: default
 		<article>
 			<a href="/blog-design/" class="image"><img src="assets/images/blog-design.jpg" alt="" /></a>
 			<h3>Basic Blog Design</h3>
-			<p>CSS Grid seemed useful so I decided to play aorund with it. I put together a simple blog design and practiced implementing CSS Grid styles as I wrote it out. It's fully responsive and should work in the most recent version of most browsers.</p>
+			<p>CSS Grid seemed useful so I decided to play around with it. I put together a simple blog design and practiced implementing CSS Grid styles as I wrote it out. It's fully responsive and should work in the most recent version of most browsers.</p>
 			<ul class="actions">
 				<li><a href="/blog-design" class="button">See it live</a></li>
 			</ul>
@@ -78,7 +78,7 @@ layout: default
 			</ul>
 		</article>
 		<article>
-			<a href="/blog-design/" class="image"><img src="assets/images/rqm.png" alt="" /></a>
+			<a href="/blog-design/" class="image"><img src="assets/images/rqm.PNG" alt="" /></a>
 			<h3>Random Quote Generator</h3>
 			<p>Another freecodecamp.com project. This one is a basic JavaScript quote generator. Currently it does not pull from an API to get quotes and instead grabs them from a hard coded list.</p>
 			<ul class="actions">
@@ -86,7 +86,7 @@ layout: default
 			</ul>
 		</article>
 		<article>
-			<a href="/weather" class="image"><img src="assets/images/weather-checker.png" alt="" /></a>
+			<a href="/weather" class="image"><img src="assets/images/weather-checker.PNG" alt="" /></a>
 			<h3>Weather Checker</h3>
 			<p>Another freecodecamp.com project. This one asks the user for his or her location and then presents the basics of the weather in that location. It also allows for switching between Celsius and Fahrenheit</p>
 			<ul class="actions">
