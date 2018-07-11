@@ -1,0 +1,35 @@
+---
+layout: page
+title: Wiki Viewer
+---
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/wiki.css">
+</head>
+<body>
+  <div id="wiki-body">
+    <p><a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random article</a></p>
+    <form>
+      <input type="text" id="userInput"></input>
+    </form>
+          <button onClick="wikiSearch()">Submit</button>
+  </div>
+
+  <script src="/assets/js/wiki.js"></script>
+  <!--<script type="text/javascript">
+  window.onload = getLocation();
+</script>-->
+
+</body>
+
+<!--
+Things to do:
+1. Make Submit button pull the input value
+2. Make Submit button pass the input value as a string into the function
+3. In the JS, parse the string into pieces of the query in a way that will be submittable
+4. Make the API call with the string above
+5. Using the API return, write a for loop that pulls each set of return data (title, summary, URL)
+6. Display that set of data nicely
+
+Research how to properly implement error messages
+
+-->

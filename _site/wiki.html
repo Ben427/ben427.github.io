@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+  <title>Ben427</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+  <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+  
+</head>
+
+
+<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                <!-- Header -->
+  <header id="header">
+    <a href="/" class="logo"><strong>Ben427's Portfolio</strong> </a>
+    <ul class="icons">
+      
+      
+      
+      
+      
+      
+      
+      
+      <li><a href="https://github.com/Ben427/" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+      
+      
+      
+      <li><a href="https://www.linkedin.com/in/benbordofsky/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+      
+    </ul>
+  </header>
+
+
+                <!-- Content -->
+                <section>
+                	<header class="main">
+                		<h1>Wiki Viewer</h1>
+                	</header>
+
+                  
+
+                <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/wiki.css">
+</head>
+<body>
+  <div id="wiki-body">
+    <p><a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click here for a random article</a></p>
+    <form>
+      <input type="text" id="userInput"></input>
+    </form>
+          <button onClick="wikiSearch()">Submit</button>
+  </div>
+
+  <script src="/assets/js/wiki.js"></script>
+  <!--<script type="text/javascript">
+  window.onload = getLocation();
+</script>-->
+
+</body>
+
+<!--
+Things to do:
+1. Make Submit button pull the input value
+2. Make Submit button pass the input value as a string into the function
+3. In the JS, parse the string into pieces of the query in a way that will be submittable
+4. Make the API call with the string above
+5. Using the API return, write a for loop that pulls each set of return data (title, summary, URL)
+6. Display that set of data nicely
+
+Research how to properly implement error messages
+
+-->
+
+
+              </div>
+          </div>
+
+          <!-- Sidebar -->
+  <div id="sidebar">
+    <div class="inner">
+
+      <!-- Search -->
+       <!-- <section id="search" class="alt">
+          <form method="post" action="#">
+            <input type="text" name="query" id="query" placeholder="Search" />
+          </form>
+        </section>-->
+
+      <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2>
+          </header>
+          <ul>
+            <li><a href="/">Homepage</a></li>
+            <!--<li><a href="http://localhost:4000/generic.html">Generic</a></li>
+            <li><a href="http://localhost:4000/elements.html">Elements</a></li>-->
+            <!--<li><a href="">About</a></li>-->
+            <li><a href="/blog">Returnworthy</a></li>
+            <!--
+            <li>
+              <span class="opener">Submenu</span>
+              <ul>
+                <li><a href="#">Lorem Dolor</a></li>
+                <li><a href="#">Ipsum Adipiscing</a></li>
+                <li><a href="#">Tempus Magna</a></li>
+                <li><a href="#">Feugiat Veroeros</a></li>
+              </ul>
+            </li>-->
+          </ul>
+        </nav>
+
+      <!-- Section -->
+       <!-- <section>
+          <header class="major">
+            <h2>Ante interdum</h2>
+          </header>
+          <div class="mini-posts">
+            <article>
+              <a href="#" class="image"><img src="assets/images/pic07.jpg" alt="" /></a>
+              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+            </article>
+            <article>
+              <a href="#" class="image"><img src="assets/images/pic08.jpg" alt="" /></a>
+              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+            </article>
+            <article>
+              <a href="#" class="image"><img src="assets/images/pic09.jpg" alt="" /></a>
+              <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+            </article>
+          </div>
+          <ul class="actions">
+            <li><a href="#" class="button">More</a></li>
+          </ul>
+        </section>
+        -->
+      <!-- Section -->
+        <section>
+          <header class="major">
+            <h2>Get in touch</h2>
+          </header>
+          <p>While I am working a full time job as a Digital Producer for <a href="https://meed.net">Meed</a>, I'm always interested in new projects to fill my free time. Feel free to shoot me an email and let me know what you're interested in working on.</p>
+          <ul class="contact">
+            <li class="fa-envelope-o"><a href="#">b.bordofsky@gmail.com</a></li>
+            <!--<li class="fa-phone">(716) 555-5555</li>
+            <li class="fa-home">1234 Somewhere Road<br />
+            Nashville, TN 55555<br />
+            United States of America</li>-->
+          </ul>
+        </section>
+
+      <!-- Footer -->
+        <footer id="footer">
+          <p class="copyright">&copy; Ben427's Portfolio. All rights reserved.</p>
+        </footer>
+
+    </div>
+  </div>
+
+
+      </div>
+
+      <!-- Scripts -->
+  <script src="http://localhost:4000/assets/js/jquery.min.js"></script>
+  <script src="http://localhost:4000/assets/js/skel.min.js"></script>
+  <script src="http://localhost:4000/assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="http://localhost:4000/assets/js/main.js"></script>
+
+
+</body>
+
+</html>
