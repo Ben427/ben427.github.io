@@ -46,19 +46,19 @@ layout: default
 	</header>
 	<div class="posts">
 		<article>
-			<a href="http://metrixautomation.com.au/" class="image"><img src="assets/images/metrix-automation-screenshot.png" alt="" /></a>
+			<a href="http://metrixautomation.com.au/" class="image" target="_blank"><img src="assets/images/metrix-automation-screenshot.png" alt="" /></a>
 			<h3>Metrix Automation</h3>
 			<p>Maintenance and style/layout updates based off of an existing WordPress site. Work included adding custom stylings, reworking several content layouts, and implementing proper SEO tags (title tags, meta descriptions, alt tags, H1s, etc.), and image optimization. </p>
 			<ul class="actions">
-				<li><a href="http://metrixautomation.com.au/" class="button">See it live</a></li>
+				<li><a href="http://metrixautomation.com.au/" class="button" target="_blank">See it live</a></li>
 			</ul>
 		</article>
 		<article>
-			<a href="https://bbordofsky.github.io/" class="image"><img src="assets/images/6th-street-marketing-screenshot.png" alt="" /></a>
+			<a href="https://bbordofsky.github.io/" class="image" target="_blank"><img src="assets/images/6th-street-marketing-screenshot.png" alt="" /></a>
 			<h3>6th Street Marketing</h3>
 			<p>Designed and developed based off of an existing Jekyll theme. Work included updating CSS stylings, selecting imagery, reworking content layouts, adding email form functionality, adding See More functionality and a small bit of copywriting.</p>
 			<ul class="actions">
-				<li><a href="https://bbordofsky.github.io/" class="button">See it live</a></li>
+				<li><a href="https://bbordofsky.github.io/" class="button" target="_blank">See it live</a></li>
 			</ul>
 		</article>
 		<article>
