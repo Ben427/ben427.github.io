@@ -94,7 +94,7 @@ layout: default
 			</ul>
 		</article>
 		<article>
-			<a href="/shirts" class="image"><img src="assets/images/shirts-page.PNG" alt="" /></a>
+			<a href="/shirts" class="image"><img src="assets/images/shirts-page.png" alt="" /></a>
 			<h3>T-Shirt Designs</h3>
 			<p>A few t-shirt designs I put together to test out Amazon Merch.</p>
 			<ul class="actions">
