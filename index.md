@@ -54,6 +54,15 @@ layout: default
 			</ul>
 		</article>
 		<article>
+			<a href="http://grademymeds.com/" class="image" target="_blank"><img src="assets/images/GMM-screenshot.png" alt="" /></a>
+			<h3>Grade My Meds</h3>
+			<p>Fully designed and developed by me! For now it's a simple static webpage with a nice form courtesy of FormSpree. Upcoming changes will include a third party payment processor integration.</p>
+			<ul class="actions">
+				<li><a href="http://metrixautomation.com.au/" class="button" target="_blank">See it live</a></li>
+			</ul>
+		</article>
+
+		<article>
 			<a href="https://bbordofsky.github.io/" class="image" target="_blank"><img src="assets/images/6th-street-marketing-screenshot.png" alt="" /></a>
 			<h3>6th Street Marketing</h3>
 			<p>Designed and developed based off of an existing Jekyll theme. Work included updating CSS stylings, selecting imagery, reworking content layouts, adding email form functionality, adding See More functionality and a small bit of copywriting.</p>
