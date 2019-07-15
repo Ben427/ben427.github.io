@@ -45,6 +45,14 @@ layout: default
 		<h2>Projects</h2>
 	</header>
 	<div class="posts">
+	<article>
+		<a href="https://borealisonaurora.com" class="image" target="_blank"><img src="assets/images/borealis-screenshot-min.png" alt="" /></a>
+		<h3>Aurora Borealis</h3>
+		<p>Full design & development using a custom theme built from the ground up.</p>
+		<ul class="actions">
+			<li><a href="https://borealisonaurora.com" class="button" target="_blank">See it live</a></li>
+		</ul>
+	</article>
 		<article>
 			<a href="http://metrixautomation.com.au/" class="image" target="_blank"><img src="assets/images/metrix-automation-screenshot.png" alt="" /></a>
 			<h3>Metrix Automation</h3>
@@ -58,7 +66,7 @@ layout: default
 			<h3>Grade My Meds</h3>
 			<p>Fully designed and developed by me! For now it's a simple static webpage with a nice form courtesy of FormSpree. Upcoming changes will include a third party payment processor integration.</p>
 			<ul class="actions">
-				<li><a href="http://metrixautomation.com.au/" class="button" target="_blank">See it live</a></li>
+				<li><a href="http://grademymeds.com" class="button" target="_blank">See it live</a></li>
 			</ul>
 		</article>
 
