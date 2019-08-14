@@ -62,7 +62,7 @@ layout: default
 			</ul>
 		</article>
 		<article>
-			<a href="http://grademymeds.com/" class="image" target="_blank"><img src="assets/images/GMM-screenshot.PNG" alt="" /></a>
+			<a href="http://jdoegmm.github.io" class="image" target="_blank"><img src="assets/images/GMM-screenshot.PNG" alt="" /></a>
 			<h3>Grade My Meds</h3>
 			<p>Fully designed and developed by me! For now it's a simple static webpage with a nice form courtesy of FormSpree. Upcoming changes will include a third party payment processor integration.</p>
 			<ul class="actions">
