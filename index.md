@@ -66,7 +66,7 @@ layout: default
 			<h3>Grade My Meds</h3>
 			<p>Fully designed and developed by me! For now it's a simple static webpage with a nice form courtesy of FormSpree. Upcoming changes will include a third party payment processor integration.</p>
 			<ul class="actions">
-				<li><a href="http://grademymeds.com" class="button" target="_blank">See it live</a></li>
+				<li><a href="http://jdoegmm.github.io" class="button" target="_blank">See it live</a></li>
 			</ul>
 		</article>
 
