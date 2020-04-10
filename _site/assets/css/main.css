@@ -3856,6 +3856,10 @@
 
 }
 
+
+		#banner button{
+			margin-bottom:10px!important;
+		}
 .banner-centered{
 	align-items:center;
 	justify-content: center;
@@ -4096,9 +4100,4 @@
 			border-top: 0;
 			margin-top: 0;
 			padding-top: 0;
-		}
-
-
-		#banner button{
-			margin-bottom:10px;
 		}
