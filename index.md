@@ -78,14 +78,14 @@ layout: default
 				<li><a href="https://bbordofsky.github.io/" class="button" target="_blank">See it live</a></li>
 			</ul>
 		</article>
-		<article>
+		<!--<article>
 			<a href="/blog-design/" class="image"><img src="assets/images/blog-design.jpg" alt="" /></a>
 			<h3>Basic Blog Design</h3>
 			<p>CSS Grid seemed useful so I decided to play around with it. I put together a simple blog design and practiced implementing CSS Grid styles as I wrote it out. It's fully responsive and should work in the most recent version of most browsers.</p>
 			<ul class="actions">
 				<li><a href="/blog-design" class="button">See it live</a></li>
 			</ul>
-		</article>
+		</article>-->
 		<article>
 			<a href="/javascript-mini-projects" class="image"><img src="assets/images/js-mini-projects.jpg" alt="" /></a>
 			<h3>JavaScript Mini Projects</h3>
@@ -94,14 +94,14 @@ layout: default
 				<li><a href="javascript-mini-projects" class="button">See it live</a></li>
 			</ul>
 		</article>
-		<article>
+		<!--<article>
 			<a href="/blog-design/" class="image"><img src="assets/images/rqm.PNG" alt="" /></a>
 			<h3>Random Quote Generator</h3>
 			<p>Another freecodecamp.com project. This one is a basic JavaScript quote generator. Currently it does not pull from an API to get quotes and instead grabs them from a hard coded list.</p>
 			<ul class="actions">
 				<li><a href="/rqm" class="button">See it live</a></li>
 			</ul>
-		</article>
+		</article>-->
 		<article>
 			<a href="/weather" class="image"><img src="assets/images/weather-checker.PNG" alt="" /></a>
 			<h3>Weather Checker</h3>
