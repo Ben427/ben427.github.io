@@ -78,7 +78,7 @@ layout: default
 			</ul>
 		</article>
 		<article>
-			<a href="http://jdoegmm.github.io" class="image" target="_blank"><img src="assets/images/portfolio/GradeMyMeds.PNG" alt="" /></a>
+			<a href="http://jdoegmm.github.io" class="image" target="_blank"><img src="assets/images/portfolio/GradeMyMeds.png" alt="" /></a>
 			<h3>Grade My Meds</h3>
 			<p>Fully designed and developed by me. Utilizing Jekyll and Adobe XD, I created a static landing page for a medical assistance startup.</p>
 			<ul class="actions">
