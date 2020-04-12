@@ -46,7 +46,23 @@ layout: default
 	</header>
 	<div class="posts">
 	<article>
-		<a href="https://borealisonaurora.com" class="image" target="_blank"><img src="assets/images/borealis-screenshot-min.png" alt="" /></a>
+		<a href="https://www.dreambox.com" class="image" target="_blank"><img src="assets/images/portfolio/DreamBox.png" alt="" /></a>
+		<h3>DreamBox</h3>
+		<p>Project includes ongoing content management and maintenance. Currently working on redesigning and relaunching several pages. So far the homepage is the first that has been fully redesigned and rebuilt by me!</p>
+		<ul class="actions">
+			<li><a href="https://www.dreambox.com" class="button" target="_blank">See it live</a></li>
+		</ul>
+	</article>
+	<article>
+		<a href="https://meedbankingclub.com" class="image" target="_blank"><img src="assets/images/portfolio/MeedBankingClub.png" alt="" /></a>
+		<h3>Meed Banking Club</h3>
+		<p>General website management on a JAM-stack utilizing Gatsby and Contenful. Some design work by me including cell phone and debit card images.</p>
+		<ul class="actions">
+			<li><a href="https://meedbankingclub.com" class="button" target="_blank">See it live</a></li>
+		</ul>
+	</article>
+	<article>
+		<a href="https://borealisonaurora.com" class="image" target="_blank"><img src="assets/images/portfolio/AuroraBorealis.png" alt="" /></a>
 		<h3>Aurora Borealis</h3>
 		<p>Full design & development using a custom theme built from the ground up.</p>
 		<ul class="actions">
@@ -54,7 +70,7 @@ layout: default
 		</ul>
 	</article>
 		<article>
-			<a href="http://metrixautomation.com.au/" class="image" target="_blank"><img src="assets/images/metrix-automation-screenshot.png" alt="" /></a>
+			<a href="http://metrixautomation.com.au/" class="image" target="_blank"><img src="assets/images/portfolio/MetrixAutomation.png" alt="" /></a>
 			<h3>Metrix Automation</h3>
 			<p>Maintenance and style/layout updates based off of an existing WordPress site. Work included adding custom stylings, reworking several content layouts, and implementing proper SEO tags (title tags, meta descriptions, alt tags, H1s, etc.), and image optimization. </p>
 			<ul class="actions">
@@ -62,16 +78,16 @@ layout: default
 			</ul>
 		</article>
 		<article>
-			<a href="http://jdoegmm.github.io" class="image" target="_blank"><img src="assets/images/GMM-screenshot.PNG" alt="" /></a>
+			<a href="http://jdoegmm.github.io" class="image" target="_blank"><img src="assets/images/portfolio/GradeMyMeds.PNG" alt="" /></a>
 			<h3>Grade My Meds</h3>
-			<p>Fully designed and developed by me! For now it's a simple static webpage with a nice form courtesy of FormSpree. Upcoming changes will include a third party payment processor integration.</p>
+			<p>Fully designed and developed by me. Utilizing Jekyll and Adobe XD, I created a static landing page for a medical assistance startup.</p>
 			<ul class="actions">
 				<li><a href="http://jdoegmm.github.io" class="button" target="_blank">See it live</a></li>
 			</ul>
 		</article>
 
 		<article>
-			<a href="https://bbordofsky.github.io/" class="image" target="_blank"><img src="assets/images/6th-street-marketing-screenshot.png" alt="" /></a>
+			<a href="https://bbordofsky.github.io/" class="image" target="_blank"><img src="assets/images/portfolio/6thStreetMarketing.png" alt="" /></a>
 			<h3>6th Street Marketing</h3>
 			<p>Designed and developed based off of an existing Jekyll theme. Work included updating CSS stylings, selecting imagery, reworking content layouts, adding email form functionality, adding See More functionality and a small bit of copywriting.</p>
 			<ul class="actions">
@@ -86,14 +102,14 @@ layout: default
 				<li><a href="/blog-design" class="button">See it live</a></li>
 			</ul>
 		</article>-->
-		<article>
+		<!--<article>
 			<a href="/javascript-mini-projects" class="image"><img src="assets/images/js-mini-projects.jpg" alt="" /></a>
 			<h3>JavaScript Mini Projects</h3>
 			<p>Just a few small Javascript projects that I completed while working through freecodecamp.com.</p>
 			<ul class="actions">
 				<li><a href="javascript-mini-projects" class="button">See it live</a></li>
 			</ul>
-		</article>
+		</article>-->
 		<!--<article>
 			<a href="/blog-design/" class="image"><img src="assets/images/rqm.PNG" alt="" /></a>
 			<h3>Random Quote Generator</h3>
@@ -102,22 +118,22 @@ layout: default
 				<li><a href="/rqm" class="button">See it live</a></li>
 			</ul>
 		</article>-->
-		<article>
+		<!--<article>
 			<a href="/weather" class="image"><img src="assets/images/weather-checker.PNG" alt="" /></a>
 			<h3>Weather Checker</h3>
 			<p>Another freecodecamp.com project. This one asks the user for his or her location and then presents the basics of the weather in that location. It also allows for switching between Celsius and Fahrenheit</p>
 			<ul class="actions">
 				<li><a href="/weather" class="button">See it live</a></li>
 			</ul>
-		</article>
-		<article>
+		</article>-->
+		<!--<article>
 			<a href="/shirts" class="image"><img src="assets/images/shirts-page.png" alt="" /></a>
 			<h3>T-Shirt Designs</h3>
 			<p>A few t-shirt designs I put together to test out Amazon Merch.</p>
 			<ul class="actions">
 				<li><a href="/shirts" class="button">See it live</a></li>
 			</ul>
-		</article>
+		</article>-->
 		<!--<article>
 			<a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
 			<h3>Tempus ullamcorper</h3>

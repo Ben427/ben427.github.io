@@ -3330,6 +3330,8 @@
 			.posts article .image {
 				display: block;
 				margin: 0 0 2em 0;
+				/*border:1px solid #e5e5e5;*/
+				box-shadow:0px 0px 2px;
 			}
 
 				.posts article .image img {
