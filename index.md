@@ -66,7 +66,7 @@ layout: default
 		<h3>Folcroft Union Church</h3>
 		<p>Designed and developed based off of the Themify Ultra WordPress theme. </p>
 		<ul class="actions">
-			<li><a href="http://stayconnectedtoday.org/" class="button" target="_blank">See it live</a></li>
+			<li><a href="https://folcroft.org" class="button" target="_blank">See it live</a></li>
 		</ul>
 	</article>
 	<article>
