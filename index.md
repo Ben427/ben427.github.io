@@ -61,14 +61,14 @@ layout: default
 			<li><a href="https://meedbankingclub.com" class="button" target="_blank">See it live</a></li>
 		</ul>
 	</article>
-	<article>
+	<!--<article>
 		<a href="http://stayconnectedtoday.org/" class="image" target="_blank"><img src="assets/images/portfolio/StayConnected.png" alt="" /></a>
 		<h3>Stay Connected NYC</h3>
 		<p>Designed and developed based off of the Themify WordPress theme. </p>
 		<ul class="actions">
 			<li><a href="http://stayconnectedtoday.org/" class="button" target="_blank">See it live</a></li>
 		</ul>
-	</article>
+	</article>-->
 	<article>
 		<a href="https://borealisonaurora.com" class="image" target="_blank"><img src="assets/images/portfolio/AuroraBorealis.png" alt="" /></a>
 		<h3>Aurora Borealis</h3>
