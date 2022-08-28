@@ -53,14 +53,14 @@ layout: default
 			<li><a href="https://www.dreambox.com" class="button" target="_blank">See it live</a></li>
 		</ul>
 	</article>
-	<article>
+	<!--<article>
 		<a href="https://meedbankingclub.com" class="image" target="_blank"><img src="assets/images/portfolio/MeedBankingClub.png" alt="" /></a>
 		<h3>Meed Banking Club</h3>
 		<p>General website management on a JAM-stack utilizing Gatsby and Contenful. Some design work by me including cell phone and debit card images.</p>
 		<ul class="actions">
 			<li><a href="https://meedbankingclub.com" class="button" target="_blank">See it live</a></li>
 		</ul>
-	</article>
+	</article>-->
 	<article>
 		<a href="https://folcroft.org" class="image" target="_blank"><img src="assets/images/portfolio/folcroft-union-thumbnail.jpg" alt="" /></a>
 		<h3>Folcroft Union Church</h3>
@@ -77,14 +77,14 @@ layout: default
 			<li><a href="https://borealisonaurora.com" class="button" target="_blank">See it live</a></li>
 		</ul>
 	</article>
-		<article>
+		<!--<article>
 			<a href="http://metrixautomation.com.au/" class="image" target="_blank"><img src="assets/images/portfolio/MetrixAutomation.png" alt="" /></a>
 			<h3>Metrix Automation</h3>
 			<p>Maintenance and style/layout updates based off of an existing WordPress site. Work included adding custom stylings, reworking several content layouts, and implementing proper SEO tags (title tags, meta descriptions, alt tags, H1s, etc.), and image optimization. </p>
 			<ul class="actions">
 				<li><a href="http://metrixautomation.com.au/" class="button" target="_blank">See it live</a></li>
 			</ul>
-		</article>
+		</article>-->
 		<article>
 			<a href="http://jdoegmm.github.io" class="image" target="_blank"><img src="assets/images/portfolio/GradeMyMeds.png" alt="" /></a>
 			<h3>Grade My Meds</h3>
