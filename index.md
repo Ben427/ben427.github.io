@@ -46,11 +46,27 @@ layout: default
 	</header>
 	<div class="posts">
 	<article>
-		<a href="https://www.dreambox.com" class="image" target="_blank"><img src="assets/images/portfolio/DreamBox.png" alt="" /></a>
-		<h3>DreamBox</h3>
-		<p>Project includes ongoing content management and maintenance. Currently working on redesigning and relaunching several pages. So far the homepage is the first that has been fully redesigned and rebuilt by me!</p>
+		<a href="https://www.dreambox.com" class="image" target="_blank"><img src="assets/images/portfolio/DreamBox-min.png" alt="" /></a>
+		<h3>DreamBox Learning</h3>
+		<p>Managed redesign and rebuild in partnership with internal stakeholders and a partner agency.</p>
 		<ul class="actions">
 			<li><a href="https://www.dreambox.com" class="button" target="_blank">See it live</a></li>
+		</ul>
+	</article>
+	<article>
+		<a href="https://anajakthai.com" class="image" target="_blank"><img src="assets/images/portfolio/Anajak-min.png" alt="" /></a>
+		<h3>Anajak Thai</h3>
+		<p>Redesign and rebuild in partnership with an A-1 designer.</p>
+		<ul class="actions">
+			<li><a href="https://anajakthai.com" class="button" target="_blank">See it live</a></li>
+		</ul>
+	</article>
+	<article>
+		<a href="https://borealisonaurora.com" class="image" target="_blank"><img src="assets/images/portfolio/AuroraBorealis.png" alt="" /></a>
+		<h3>Aurora Borealis</h3>
+		<p>Full design & development using a custom theme built from the ground up.</p>
+		<ul class="actions">
+			<li><a href="https://borealisonaurora.com" class="button" target="_blank">See it live</a></li>
 		</ul>
 	</article>
 	<!--<article>
@@ -70,21 +86,29 @@ layout: default
 		</ul>
 	</article>
 	<article>
-		<a href="https://borealisonaurora.com" class="image" target="_blank"><img src="assets/images/portfolio/AuroraBorealis.png" alt="" /></a>
-		<h3>Aurora Borealis</h3>
-		<p>Full design & development using a custom theme built from the ground up.</p>
-		<ul class="actions">
-			<li><a href="https://borealisonaurora.com" class="button" target="_blank">See it live</a></li>
-		</ul>
-	</article>
-		<!--<article>
-			<a href="http://metrixautomation.com.au/" class="image" target="_blank"><img src="assets/images/portfolio/MetrixAutomation.png" alt="" /></a>
-			<h3>Metrix Automation</h3>
-			<p>Maintenance and style/layout updates based off of an existing WordPress site. Work included adding custom stylings, reworking several content layouts, and implementing proper SEO tags (title tags, meta descriptions, alt tags, H1s, etc.), and image optimization. </p>
+			<a href="https://bbordofsky.github.io/" class="image" target="_blank"><img src="assets/images/portfolio/6thStreetMarketing.png" alt="" /></a>
+			<h3>6th Street Marketing</h3>
+			<p>Designed and developed based off of an existing Jekyll theme. Work included updating CSS stylings, selecting imagery, reworking content layouts, adding email form functionality, and a small bit of copywriting.</p>
 			<ul class="actions">
-				<li><a href="http://metrixautomation.com.au/" class="button" target="_blank">See it live</a></li>
+				<li><a href="https://bbordofsky.github.io/" class="button" target="_blank">See it live</a></li>
 			</ul>
-		</article>-->
+		</article>
+	<article>
+			<a href="http://myersgroupllc.com/" class="image" target="_blank"><img src="assets/images/portfolio/MGLLC-min.png" alt="" /></a>
+			<h3>Myers Group LLC</h3>
+			<p>Designed and developed based off of an existing Jekyll theme. Migrated content and redesigned a couple templates to fit the content.</p>
+			<ul class="actions">
+				<li><a href="https://bbordofsky.github.io/" class="button" target="_blank">See it live</a></li>
+			</ul>
+		</article>	
+	<!--<article>
+		<a href="http://metrixautomation.com.au/" class="image" target="_blank"><img src="assets/images/portfolio/MetrixAutomation.png" alt="" /></a>
+		<h3>Metrix Automation</h3>
+		<p>Maintenance and style/layout updates based off of an existing WordPress site. Work included adding custom stylings, reworking several content layouts, and implementing proper SEO tags (title tags, meta descriptions, alt tags, H1s, etc.), and image optimization. </p>
+		<ul class="actions">
+			<li><a href="http://metrixautomation.com.au/" class="button" target="_blank">See it live</a></li>
+		</ul>
+		</article>
 		<article>
 			<a href="http://jdoegmm.github.io" class="image" target="_blank"><img src="assets/images/portfolio/GradeMyMeds.png" alt="" /></a>
 			<h3>Grade My Meds</h3>
@@ -92,16 +116,9 @@ layout: default
 			<ul class="actions">
 				<li><a href="http://jdoegmm.github.io" class="button" target="_blank">See it live</a></li>
 			</ul>
-		</article>
+		</article>-->
 
-		<article>
-			<a href="https://bbordofsky.github.io/" class="image" target="_blank"><img src="assets/images/portfolio/6thStreetMarketing.png" alt="" /></a>
-			<h3>6th Street Marketing</h3>
-			<p>Designed and developed based off of an existing Jekyll theme. Work included updating CSS stylings, selecting imagery, reworking content layouts, adding email form functionality, adding See More functionality and a small bit of copywriting.</p>
-			<ul class="actions">
-				<li><a href="https://bbordofsky.github.io/" class="button" target="_blank">See it live</a></li>
-			</ul>
-		</article>
+		
 		<!--<article>
 			<a href="/blog-design/" class="image"><img src="assets/images/blog-design.jpg" alt="" /></a>
 			<h3>Basic Blog Design</h3>
