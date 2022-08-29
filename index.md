@@ -85,14 +85,14 @@ layout: default
 			<li><a href="https://folcroft.org" class="button" target="_blank">See it live</a></li>
 		</ul>
 	</article>
-	<article>
+	<!--<article>
 			<a href="https://bbordofsky.github.io/" class="image" target="_blank"><img src="assets/images/portfolio/6thStreetMarketing.png" alt="" /></a>
 			<h3>6th Street Marketing</h3>
 			<p>Designed and developed based off of an existing Jekyll theme. Work included updating CSS stylings, selecting imagery, reworking content layouts, adding email form functionality, and a small bit of copywriting.</p>
 			<ul class="actions">
 				<li><a href="https://bbordofsky.github.io/" class="button" target="_blank">See it live</a></li>
 			</ul>
-		</article>
+		</article>-->
 	<article>
 			<a href="http://myersgroupllc.com/" class="image" target="_blank"><img src="assets/images/portfolio/MGLLC-min.png" alt="" /></a>
 			<h3>Myers Group LLC</h3>
